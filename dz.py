@@ -325,3 +325,32 @@ def a():
     pass
 
 print(a.__doc__)
+##############################################################
+def kakat():
+    
+    pozivi = True
+    count_papper = 10
+
+    sit()
+    out_of_mine()
+    use_papper(count_papper)
+
+def per():
+    print('фуфуфуу')
+
+def out_of_mine():
+    print('pfhfhfhfhfhfh bada bum bada bumbada bumbada bumbada bumbada bum')
+
+def use_papper(c_p):
+    print(f'Процесс пошел, количество бумаги {c_p}')
+    for i in range(1, c_p + 1):
+        print(f'Мазок номер {i}')
+
+
+def sit():
+    print('Я присел')
+    per()
+
+
+
+kakat()
